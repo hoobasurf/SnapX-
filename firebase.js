@@ -1,11 +1,11 @@
 // firebase.js
-// Import Firebase SDK
+// Import Firebase SDK depuis le CDN
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-analytics.js";
-// Si tu veux utiliser d'autres services Firebase, tu peux les importer ici
+// Tu pourras ajouter d'autres services Firebase si nécessaire
 // Exemple: import { getAuth } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-auth.js";
 
-// Configuration Firebase
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAcGNNTTaMht1CaTa6FfCPoFWWfHDHoP9k",
   authDomain: "snapx-bb732.firebaseapp.com",
